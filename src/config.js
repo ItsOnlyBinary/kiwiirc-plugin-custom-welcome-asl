@@ -96,7 +96,11 @@ export function setDefaults() {
         build: '%asl',
         separator: ' ',
     });
-
+    kiwi.state.pluginASL.gecosTypes.push({
+        regex: new RegExp('(\\d+|\\*)\\ ?\\/\\ ?([' + sexesRegex + '*])\\ ?(\\/\\ ?(.*))?'),
+        build: '%asl',
+        separator: '/',
+    });
     kiwi.state.pluginASL.userFilter = '';
 }
 

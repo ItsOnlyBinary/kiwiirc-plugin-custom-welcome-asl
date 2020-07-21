@@ -6,6 +6,7 @@
     "all": "All",
     "male": "Male",
     "female": "Female",
+	"transgender": "Transgender",
     "other": "Other",
     "select": "Select"
 }

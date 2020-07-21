@@ -6,6 +6,7 @@
     "all": "Tous",
     "male": "Homme",
     "female": "Femme",
+	"transgender": "Transgenre",
     "other": "Autre",
     "select": "Choisir"
 }
